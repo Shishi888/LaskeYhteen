@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="fi">
 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="laske.css">
+    <script src="laske.js" ></script>
+    <title>laskeyhteen</title>
+</head>
+<body>
+    <section>
+        <div>
+        <form class="thisform">
+            <label for="ensimmainen numero">Ensimmäinen numero: 
+                <input type="text" class="input" id="ekanum"></label>
+                <br><br><br>
+            <label for="toinen numero">Toinen numero: 
+                <input type="text" class="input" id="tokanum"></label>
+                <br><br><br>
+                <div>
+                <button class="button" onclick="LaskeYhteen()">
+                 LaskeYhteen</button>  
+                 <p id="tulos">Summa</p> 
+                </div> 
+
+
+
+
+
+        </form>
+    </div>
+
+    </section>
+</body>
+<script src="laske.js">
+
+function LaskeYhteen() {  
+     var numero1 = Number(document.getElementById("ekanum").value);     
+     var numero2 = Number(document.getElementById("tokanum").value);     
+     var summa = numero1 + numero2;  
+      document.getElementById("tulos").innerHTML = summa; }
+
+</script>
+
+
+
+
+
+
+
+
+
+</html>

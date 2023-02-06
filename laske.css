@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    text-shadow: 2cm;
+    font-size: x-large;
+
+}
+form{
+    background-color: rgb(230, 196, 151);
+    padding: 100px;
+    margin: 350px;
+}
+
+.input{
+    border-radius: 10px;
+    float: right;
+}
+.button{
+    border-width: 20px;
+
+    text-decoration: dotted;
+
+}
+p{
+    border-color: rgb(230, 115, 115);
+    border-width: 60px;
+    border-style: inset;
+    text-align: center;
+   
+
+
+}
